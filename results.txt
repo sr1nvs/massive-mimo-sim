@@ -1,0 +1,46 @@
+System Configuration:
+- 64 Tx antennas in 8x8 URA configuration
+- 20 Rx antennas (2 per user, 10 users)
+- 128 OFDM subcarriers 
+- Modulation order: 4
+- Cell radius: 500 m, Min distance: 35 m
+- Number of trials: 2
+
+Received Power at Mobile Stations:
+    User    RxPower_dBm
+    ____    ___________
+
+      1       -99.984  
+      2       -84.368  
+      3        -104.5  
+      4       -86.795  
+      5       -88.108  
+      6       -89.588  
+      7       -85.215  
+      8       -87.123  
+      9       -81.455  
+     10       -78.626  
+
+Running trial 1 of 2
+Running trial 2 of 2
+
+Performance Metrics:
+    SNR_dB       BER           SER        Capacity_bps_Hz
+    ______    __________    __________    _______________
+
+       0      0.00011523    0.00023047        6.3179     
+       2      1.9531e-06    3.9063e-06        9.3563     
+       4               0             0        13.517     
+       6               0             0        18.975     
+       8               0             0        25.817     
+      10               0             0        34.025     
+      12               0             0        43.477     
+      14               0             0        53.983     
+      16               0             0        65.322     
+      18               0             0        77.285     
+      20               0             0        89.692     
+      22               0             0         102.4     
+      24               0             0        115.32     
+      26               0             0        128.37     
+      28               0             0        141.51     
+      30               0             0         154.7     
