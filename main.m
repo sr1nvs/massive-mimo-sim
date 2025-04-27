@@ -25,14 +25,14 @@ SNR_dB = 0:2:30;
 num_symbols = 200; 
 num_trials = 2;
 
-% Display system configuration
+% system configuration
 fprintf('\nSystem Configuration:\n');
 fprintf('- %d Tx antennas in %dx%d URA configuration\n', Nt, Nx, Ny);
 fprintf('- %d Rx antennas (%d per user, %d users)\n', Nr, Nr_per_user, N_users);
 fprintf('- %d OFDM subcarriers \n', N_sc);
 fprintf('- Modulation order: %d\n', mod_order);
 fprintf('- Cell radius: %d m, Min distance: %d m\n', cell_radius, min_distance);
-fprintf('- Number of trials: %d\n', num_trials);
+fprintf('- Number of trials: %d\n\n', num_trials);
 
 %% Set up URA antenna geometry
 [tx_x, tx_y] = meshgrid(0:Ny-1, 0:Nx-1);
