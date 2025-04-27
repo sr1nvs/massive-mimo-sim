@@ -4,7 +4,8 @@ System Configuration:
 - 128 OFDM subcarriers 
 - Modulation order: 4
 - Cell radius: 500 m, Min distance: 35 m
-- Number of trials: 2
+- Number of trials: 1
+- Channel estimation error: 10%
 
 Received Power at Mobile Stations:
     User    RxPower_dBm
@@ -21,26 +22,20 @@ Received Power at Mobile Stations:
       9       -81.455  
      10       -78.626  
 
-Running trial 1 of 2
-Running trial 2 of 2
+Running trial 1 of 1
 
 Performance Metrics:
     SNR_dB       BER           SER        Capacity_bps_Hz
     ______    __________    __________    _______________
 
-       0      0.00011523    0.00023047        6.3179     
-       2      1.9531e-06    3.9063e-06        9.3563     
-       4               0             0        13.517     
-       6               0             0        18.975     
-       8               0             0        25.817     
-      10               0             0        34.025     
-      12               0             0        43.477     
-      14               0             0        53.983     
-      16               0             0        65.322     
-      18               0             0        77.285     
-      20               0             0        89.692     
-      22               0             0         102.4     
-      24               0             0        115.32     
-      26               0             0        128.37     
-      28               0             0        141.51     
-      30               0             0         154.7     
+       0        0.018701      0.037031        2.1979     
+       2       0.0046914     0.0093633        3.3906     
+       4      0.00057812     0.0011562         5.163     
+       6      1.9531e-05    3.9063e-05        7.7251     
+       8               0             0        11.302     
+      10               0             0        16.096     
+      12               0             0        22.243     
+      14               0             0        29.777     
+      16               0             0        38.627     
+      18               0             0        48.632     
+      20               0             0        59.582  
